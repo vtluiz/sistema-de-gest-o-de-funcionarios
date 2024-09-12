@@ -1,0 +1,22 @@
+# Sistema de Gestão de Funcionários
+
+Este projeto implementa um sistema de gerenciamento de funcionários que inclui controle de salários, avaliações de desempenho e informações sobre cargos e departamentos.
+
+## Estrutura do Banco de Dados
+
+- **Departamento**: Armazena informações dos departamentos.
+- **Funcionarios**: Registra dados pessoais e de cargo dos funcionários.
+- **Salarios**: Histórico de salários dos funcionários.
+- **AvaliacoesDesempenho**: Armazena avaliações de desempenho.
+
+## Funcionalidades
+
+1. **Criação de Banco de Dados e Tabelas**: O script `create_tables.sql` cria todas as tabelas necessárias.
+2. **Inserção de Dados**: Utilize `insert_data.sql` para popular as tabelas com dados iniciais.
+3. **Consultas**: O script `queries.sql` contém exemplos de consultas úteis.
+4. **Atualizações e Deleções**: O script `update_delete.sql` permite modificar e remover dados.
+5. **Funcionalidades Extras**: O script `performance_reviews.sql` lista funcionários com avaliação "Exemplary".
+
+## Requisitos
+
+- MySQL ou outro SGBD compatível.
